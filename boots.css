@@ -1,0 +1,65 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Potta One', cursive;
+    background: url(https://images.unsplash.com/photo-1507275016429-544fc0875edd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80) no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: ivory;
+    text-shadow: black 5px 5px 5px;
+}
+
+p {
+    color: ivory;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-shadow: black 5px 5px 5px;
+
+}
+
+.btn {
+    font-weight: 400;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: ivory;
+    background-color:rgb(255, 108, 82);
+    border-color:rgb(255, 108, 82);
+}
+
+.btn-primary:hover {
+    border-color:rgb(247, 72, 41);
+    background-color:rgb(247, 72, 41) ;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+hr {
+   max-width: 65px;
+   border-width: 3px;
+   border-color:rgb(255, 108, 82)
+}
+
+.h-hr {
+    max-width: 55em;
+    border-width: 3px;
+    border-color:rgb(88, 105, 124)
+ }
+.buffer {
+    height: 1rem;
+    
+}
